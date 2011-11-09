@@ -8,12 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SampleCell : UITableViewCell {
-//    UIButton *button;
-//    UIView *wipe;
-    BOOL beingEdited;
-}
-
-@property BOOL beingEdited;
+@interface SampleCell : UITableViewCell
 
 @end
