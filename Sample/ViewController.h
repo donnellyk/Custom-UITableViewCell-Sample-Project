@@ -17,4 +17,6 @@
 @property (nonatomic, retain) IBOutlet UINavigationItem *nav_item;
 @property (nonatomic, retain) IBOutlet UITableView *tbl_main;
 
+- (IBAction) removeCell:(UIButton *) sender;
+
 @end
